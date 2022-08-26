@@ -1,12 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import Header from '../../components/Header/Header';
 
 const Home = () => {
 
     return (
         <>
 
-            <h3>Home Page </h3>
+            <Header/>
 
             <Link to="/about" className="mx-2">About</Link>
             <Link to="/contact">Contact</Link>
