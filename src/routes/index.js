@@ -4,7 +4,7 @@ import Home from "../views/Home/home";
 import Contact from "../views/contact/contact";
 import About from "../views/about/About";
 
-const HandleRouter = () => {
+const Index = () => {
   return (
     <>
       <Routes>
@@ -16,4 +16,4 @@ const HandleRouter = () => {
   );
 };
 
-export default HandleRouter;
+export default Index;

@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import HandleRouter from "./Routes/HandleRouter";
+import Index from "./routes";
 
 const App = () => {
   return (
     <>
-        <HandleRouter/>
+        <Index/>
     </>
   );
 };
